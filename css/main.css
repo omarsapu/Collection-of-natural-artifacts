@@ -8,16 +8,17 @@
 @import url(block/_js.css);
 
 
-@import url(block/_slider.css);
-@import url(block/_logo.css);
-@import url(block/_header.css);
+@import url(css/block/_slider.css);
+@import url(css/block/_logo.css);
+@import url(css/block/_header.css);
 
 /* main */
-@import url(block/_hero.css);
-@import url(block/_gallery.css);
-@import url(block/_link.css);
-@import url(block/_about.css);
-@import url(block/_contact.css);
+@import url(css/block/_hero.css);
+@import url(css/block/_gallery.css);
+@import url(css/block/_link.css);
+@import url(css/block/_about.css);
+@import url(css/block/_contact.css);
 
 /* footer */
-@import url(block/_footer.css);
+@import url(css/block/_footer.css);
+
