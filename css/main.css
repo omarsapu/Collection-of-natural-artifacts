@@ -1,0 +1,23 @@
+@import url(../css/media.css);
+@import url(../css/var.css);
+@import url(../css/fonts.css);
+@import url(../css/setting.css);
+@import url(../css/grid.css);
+
+/* header */
+@import url(block/_js.css);
+
+
+@import url(block/_slider.css);
+@import url(block/_logo.css);
+@import url(block/_header.css);
+
+/* main */
+@import url(block/_hero.css);
+@import url(block/_gallery.css);
+@import url(block/_link.css);
+@import url(block/_about.css);
+@import url(block/_contact.css);
+
+/* footer */
+@import url(block/_footer.css);
