@@ -1,0 +1,45 @@
+.logo_img{
+  width: 65px;
+  height: 20px;
+  margin-right: 80px;
+}
+
+.logo_list{
+  display: flex;
+  gap: 64px;
+  padding-right: 270px;
+}
+
+.logo_link{
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.logo_link:hover{
+  color: var(--primary_green);
+}
+
+.logo_link:active{
+  color: var(--green_active);
+}
+
+.logo_buttons{
+  display: flex;
+  gap: 52px;
+}
+
+.logo_button{
+  width: 24px;
+  height: 24px;
+  background-color: var(--background);
+  border: none;
+  cursor: pointer;
+}
+
+
+.stroke{stroke: var(--primary_green)}
+.logo_button_link:hover .stroke {stroke:var(--green_hover)}
+.logo_button_link:active .stroke {stroke:var(--green_active)}

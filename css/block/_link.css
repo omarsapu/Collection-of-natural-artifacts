@@ -1,0 +1,13 @@
+.link_arrow {
+  position: relative;
+  top: 4px;
+  left: 8px;
+}
+
+.text_link {
+  text-decoration: none;
+  color: var(--primary_green);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+}

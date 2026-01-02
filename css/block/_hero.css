@@ -1,0 +1,46 @@
+.hero {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 113px;
+  padding-bottom: 117px;
+  background-image: url(../../img/hero-bg.jpg);
+  flex-shrink: 0;
+}
+
+.hero_text_capital{
+  width: 688px;
+  font-family: Cormorant;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+}
+
+.hero_text_descr{
+  width: 615px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  padding-top: 16px;
+  margin-bottom: 24px;
+}
+
+.hero_text_link{
+  text-decoration: none;
+  color: var(--primary_green);
+}
+
+.hero_text_link:hover{
+  color: var(--green_hover);
+}
+
+.hero_text_link:active{
+  color: var(--green_active);
+}
+
+.fil1 {fill: var(--primary_green)}
+.hero_text_link:hover .fil1 {fill:var(--green_hover)}
+.hero_text_link:active .fil1 {fill:var(--green_active)}
+
+
+

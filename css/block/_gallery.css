@@ -1,0 +1,78 @@
+.gallery {
+  background-color: var(--background);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.gallery_card_images {
+  width: 255px;
+  height: 180px;
+  background-color: var(--background_shade);
+}
+
+.gallery_card_img {
+  margin: 0;
+  padding: 40px 16px 0 0;
+}
+
+.gallery_card_img-svg {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  bottom: 110px;
+  left: 25px;
+}
+
+.gallery_card_text {
+  width: 255px;
+  height: 313px;
+  padding-top: 16px;
+  border: solid 1px var(--background_shade);
+  padding-left: 16px;
+}
+
+.gallery_card_title {
+  font-family: var(--cormorant);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+
+}
+
+.gallery_card_paragraf {
+  width: 223px;
+  height: 168px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-gray);
+  padding-top: 8px;
+  padding-bottom: 38px;
+}
+
+.gallery_card_btn {
+  text-decoration: none;
+  color: var(--primary_green);
+  background-color: var(--background);
+  border: 1px solid var(--primary_green);
+  padding: 10px 28px 10px 28px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  cursor: pointer;
+}
+
+.gallery_card_btn:hover{
+  color: var(--background_shade);
+  background-color: var(--primary_green);
+  animation: 1s ease;
+}
+
+.gallery_card_btn:active{
+  color: var(--background_shade);
+  border: none;
+  background-color: var(--green_active);
+  animation: 1s ease;
+}

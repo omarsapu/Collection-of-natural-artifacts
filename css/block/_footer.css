@@ -1,0 +1,31 @@
+footer{
+  height: 80px;
+  background-color: var(--background_shade);
+}
+
+.footer_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: var(--background);
+  color: var( --color-gray);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+}
+
+
+.footer_fill{fill: var(--color-gray)}
+.footer_fill_link:hover .footer_fill{fill: var(--primary_green)}
+.footer_fill_link:active .footer_fill{fill: var(--green_active)}
+
